@@ -2,6 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6680125-3ff7-4ded-9ded-c28a16fc64af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/hibernate-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/hibernate-core-5.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/hibernate/demo/CreateStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/hibernate/demo/DeleteStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/hibernate/demo/PrimaryKeyDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/hibernate/demo/QueryStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/hibernate/demo/ReadStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/hibernate/demo/UpdateStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/hibernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/com/luv2code/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hb-01-one-to-one-uni/src/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-session-redis-demo - Kopie" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-session-redis-demo - Kopie" afterDir="false" />
     </list>
@@ -14,8 +50,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
@@ -86,18 +121,8 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/hibernate-tutorial.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-2568" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="2576" />
     <option name="height" value="1416" />
@@ -108,8 +133,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -117,45 +140,26 @@
               <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
               <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hibernate-tutorial" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hibernate-tutorial" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
-              <item name="demo" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../hb-01-one-to-one-uni" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringCourse\Udemy-Spring" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -333,17 +337,17 @@
       <workItem from="1554390908187" duration="723000" />
       <workItem from="1554712918325" duration="331000" />
       <workItem from="1554714834448" duration="1599000" />
+      <workItem from="1558085926645" duration="108000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3490000" />
+    <option name="totallyTimeSpent" value="3598000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2568" y="-8" width="2576" height="1416" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2579491" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -407,10 +411,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hibernate-tutorial.iml">
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+    <entry file="file://$PROJECT_DIR$/hibernate-tutorial.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Student.java">
