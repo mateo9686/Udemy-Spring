@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c6680125-3ff7-4ded-9ded-c28a16fc64af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/src/com/luv2code/hibernate/demo/DeleteCourseAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernate-tutorial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/FastInfoset-1.2.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.9.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/dom4j-2.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.4.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/istack-commons-runtime-3.0.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jandex-2.0.5.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javassist-3.24.0-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-api-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jaxb-runtime-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.15.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/stax-ex-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/txw2-2.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/AddCoursesForMaryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCourseAndStudentsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteMaryStudentDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeletePacmanCourseDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetCoursesForMaryDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Course.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Review.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/luv2code/jdbc/TestJdbc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hb-04-one-to-many-uni/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring-session-redis-demo - Kopie" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-session-redis-demo - Kopie" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/classes/" />
+    <ignored path="$PROJECT_DIR$/bin/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteMaryStudentDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/luv2code/jdbc/TestJdbc.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/test.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/test.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateInstructorDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCoursesDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteCourseDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Review.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Instructor.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetCourseAndReviewsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteCourseAndReviewsDemo.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Course.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Student.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCourseAndStudentsDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/AddCoursesForMaryDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetCoursesForMaryDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeletePacmanCourseDemo.java" />
+        <option value="$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteMaryStudentDemo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hb-05-many-to-many" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hb-05-many-to-many" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hb-05-many-to-many" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hb-05-many-to-many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hb-05-many-to-many" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hb-05-many-to-many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hb-05-many-to-many" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hb-05-many-to-many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hb-05-many-to-many" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hb-05-many-to-many" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="luv2code" type="462c0819:PsiDirectoryNode" />
+              <item name="demo" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../web-customer-tracker" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.luv2code.hibernate.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SpringCourse\Udemy-Spring" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.DeleteMaryStudentDemo">
+    <configuration name="AddCoursesForMaryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demo.AddCoursesForMaryDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateCourseAndStudentsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demo.CreateCourseAndStudentsDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeleteMaryStudentDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demo.DeleteMaryStudentDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DeletePacmanCourseDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demo.DeletePacmanCourseDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCoursesForMaryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.luv2code.hibernate.demo.GetCoursesForMaryDemo" />
+      <module name="hibernate-tutorial" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.luv2code.hibernate.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.17" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_hibernate-tutorial" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64240" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_hibernate-tutorial" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64240" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.Unnamed" />
+      <item itemvalue="Application.CreateCourseAndStudentsDemo" />
+      <item itemvalue="Application.AddCoursesForMaryDemo" />
+      <item itemvalue="Application.GetCoursesForMaryDemo" />
+      <item itemvalue="Application.DeletePacmanCourseDemo" />
+      <item itemvalue="Application.DeleteMaryStudentDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DeleteMaryStudentDemo" />
+        <item itemvalue="Application.DeletePacmanCourseDemo" />
+        <item itemvalue="Application.GetCoursesForMaryDemo" />
+        <item itemvalue="Application.AddCoursesForMaryDemo" />
+        <item itemvalue="Application.CreateCourseAndStudentsDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c6680125-3ff7-4ded-9ded-c28a16fc64af" name="Default Changelist" comment="" />
+      <created>1554301761745</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554301761745</updated>
+      <workItem from="1554301763485" duration="837000" />
+      <workItem from="1554390908187" duration="723000" />
+      <workItem from="1554712918325" duration="331000" />
+      <workItem from="1554714834448" duration="1599000" />
+      <workItem from="1558086045109" duration="3947000" />
+      <workItem from="1558091058766" duration="2169000" />
+      <workItem from="1558520042261" duration="32000" />
+      <workItem from="1558520263296" duration="2073000" />
+      <workItem from="1558525188648" duration="3343000" />
+      <workItem from="1558535840186" duration="2016000" />
+      <workItem from="1558597466967" duration="247000" />
+      <workItem from="1558599039367" duration="7174000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24491000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11923689" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32969603" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969603" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3998441" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32969603" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3298887" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteStudentDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/UpdateStudentDemo.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/ReadStudentDemo.java" />
+    <entry file="file://$PROJECT_DIR$/hibernate-tutorial.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/jdbc/TestJdbc.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="34" column="106" selection-start-line="34" selection-start-column="106" selection-end-line="34" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/InstructorDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetInstructorDetailDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteInstructorDetailDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateInstructorDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCoursesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="42" column="38" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteCourseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetInstructorCoursesDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Review.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#504#505#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Instructor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="43" column="15" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCourseAndReviewsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetCourseAndReviewsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="38" column="54" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteCourseAndReviewsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="35" column="57" selection-start-line="35" selection-start-column="57" selection-end-line="35" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10" column="86" selection-start-line="10" selection-start-column="86" selection-end-line="10" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Course.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1571#1572#0" expanded="true" />
+            <element signature="e#1602#1603#0" expanded="true" />
+            <element signature="e#1657#1658#0" expanded="true" />
+            <element signature="e#1697#1698#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/entity/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+          <folding>
+            <element signature="e#1300#1301#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+            <element signature="e#1370#1371#0" expanded="true" />
+            <element signature="e#1399#1400#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/CreateCourseAndStudentsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="48" column="76" selection-start-line="48" selection-start-column="76" selection-end-line="48" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/AddCoursesForMaryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/GetCoursesForMaryDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeletePacmanCourseDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/luv2code/hibernate/demo/DeleteMaryStudentDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
